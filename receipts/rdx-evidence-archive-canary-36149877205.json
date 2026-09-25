@@ -1,0 +1,29 @@
+{
+  "schema": "F119_RDX_EVIDENCE_ARCHIVE_CANARY_V1",
+  "status": "PASS",
+  "farm_id": 119,
+  "role": "EVIDENCE_ARCHIVE",
+  "source": {
+    "repo": "dmaillot95-ui/cerebron-farm-72-reality-evidence-gate",
+    "commit": "2ccb94d3161658499fe2c8cbce2313839645290b",
+    "path": "receipts/rdx-memory-evidence-review-36149593919.json",
+    "embedded_result_sha256": "3b925348d4a04b11ff54d5472a5a3cd52b83af10ea188c8c50222b341caf5aee"
+  },
+  "source_file_sha256": "358b8e7f7ccff9846b824d7645ce919cce46bd4197c6df70092235bb7c52e309",
+  "archive_id": "F119:RDX_EVIDENCE:358b8e7f7ccff9846b824d7645ce919cce46bd4197c6df70092235bb7c52e309",
+  "provenance_preserved": true,
+  "checks": {
+    "source_schema": true,
+    "source_review_pass": true,
+    "source_result_sha": true,
+    "source_global_f72_still_fail": true,
+    "source_gold_locked": true,
+    "source_training_locked": true,
+    "content_address_sha64": true,
+    "tamper_changes_address": true
+  },
+  "training_executed": false,
+  "weights_changed": false,
+  "claim_ceiling": "PINNED_SOURCE_CONTENT_ADDRESS_AND_PROVENANCE_ARCHIVE_CANARY_ONLY_NOT_EXTERNAL_INDEPENDENT_EVIDENCE",
+  "receipt_sha256": "e2019d26ae15ac31d86ab35fba0766df869ca49447d54be5dd2d630ae8b69940"
+}
